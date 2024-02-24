@@ -1,3 +1,3 @@
-# Test opšte informisanosti
+# General knowledge quiz (test opšte informisanosti)
 
-[TRY IT](https://test-opste-informisanosti.web.app/)
+[TEST YOUR GENERAL KNOWLEDGE](https://test-opste-informisanosti.web.app){:target="_blank" rel="noopener"}

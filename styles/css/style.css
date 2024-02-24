@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(247, 219, 215, 0.3);
+    font-family: 'Itim', Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0;
+}
+
+h1 {
+    max-width: 700px;
+    text-align: center;
+    color: #FCF4F2;
+    /* background-color: #0D9276; */
+    background: radial-gradient(circle, rgba(13,146,118,1) 0%, rgba(170,102,197,1) 100%);
+    background-image: url("../images/cool-background.png");
+    /* background: radial-gradient(circle, rgba(156,192,231,1) 0%, rgba(170,102,197,1) 100%); */
+    margin: 0.5em auto;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    padding: 0.5em 0;
+    box-shadow: 3px 3px 2px black;
+}
+
+form {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+section {
+    margin: 2em 0;
+    font-family: 'Itim', Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.05em;
+    background-color: #9CC0E7;
+    padding: 1em;
+    border-radius: 1em;
+    padding-top: 0.3em;
+    box-shadow: 5px 5px 2px black;
+}
+
+h3 {
+    font-size: 1.5em;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    box-shadow: 0px 0px 5px black;
+}
+
+label {
+    padding-left: 0.8em;
+    display: inline-block;
+    width: calc(100% - 1.5em);
+
+}
+
+p {
+    font-size: 1.2em;
+    padding-left: 1em;
+}
+
+p:hover {
+    transform: scale(1.01);
+}
+
+input[type="radio"] {
+    accent-color: #91446D;
+    mix-blend-mode:hard-light;
+    transform: scale(2);
+}
+
+/* check - cross */
+
+span {
+    position: relative;
+    padding-left: 1.5em;
+}
+
+img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 1.5em;
+}
+
+/* Buttons */
+
+.dugmad {
+    text-align: center;
+}
+
+button {
+    font-family: 'Itim', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    appearance: none;
+    background-color: #4E4351;
+    border-radius: 0.5em;
+    padding: 1em;
+    color: #FDF4F3;
+    cursor: pointer;
+    border: none;
+    opacity: 0.9;
+    box-shadow: 0 0 15px #4E4351;
+    transition: scale 0.05s ease-in-out;
+    transition: opacity 0.22s;
+    margin-bottom: 2em;
+
+}
+
+button:hover {
+    opacity: 1;
+}
+
+button:active {
+    scale: 0.95;
+}
+
+button#posaljiOdgovore {
+    float: left;
+    border-radius: 2em;
+    position: relative;
+    top: 0.6em;
+}
+
+button#novaPitanja {
+    float: right;
+    border-radius: 2em;
+    border-radius: 100%;
+    aspect-ratio: 1/1;
+}
